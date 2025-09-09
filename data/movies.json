@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Inception",
     "trailerUrl": "https://youtu.be/hstBN0Qkqhc",
+    "trailerThumbnailUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/inception.png",
     "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/inception.png",
     "durationMin": 148,
     "rating": "PG-13",
@@ -32,5 +33,6 @@
     ]
   }
 ]
+
 
 

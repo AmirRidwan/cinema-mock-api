@@ -1,19 +1,27 @@
 [
   {
     "id": 1,
-    "title": "Inception",
-    "poster": "https://raw.githubusercontent.com/<your-username>/cinema-mock-api/main/images/inception.jpg",
+    "title": "Avengers: Endgame",
+    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/avengers.png",
+    "durationMin": 181,
+    "rating": "PG-13",
+    "synopsis": "After the devastating events of Infinity War, the universe is in ruins…",
     "showtimes": [
-      { "id": "S1", "time": "10:00 AM", "hall": "Hall 1" },
-      { "id": "S2", "time": "1:00 PM", "hall": "Hall 2" }
+      { "id": "S1", "time": "14:00", "hall": "Hall 1" },
+      { "id": "S2", "time": "17:00", "hall": "Hall 2" },
+      { "id": "S3", "time": "20:00", "hall": "Hall 1" }
     ]
   },
   {
     "id": 2,
-    "title": "Avengers: Endgame",
-    "poster": "https://raw.githubusercontent.com/<your-username>/cinema-mock-api/main/images/endgame.jpg",
+    "title": "Dune: Part Two",
+    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/dune.png",
+    "durationMin": 166,
+    "rating": "PG-13",
+    "synopsis": "Paul Atreides unites with Chani and the Fremen…",
     "showtimes": [
-      { "id": "S3", "time": "3:00 PM", "hall": "Hall 3" }
+      { "id": "S4", "time": "13:30", "hall": "Hall 3" },
+      { "id": "S5", "time": "18:30", "hall": "Hall 3" }
     ]
   }
 ]

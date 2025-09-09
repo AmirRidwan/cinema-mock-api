@@ -1,27 +1,33 @@
 [
   {
     "id": 1,
-    "title": "Avengers: Endgame",
-    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/avengers.png",
-    "durationMin": 181,
+    "title": "Inception",
+    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/inception.png",
+    "durationMin": 148,
     "rating": "PG-13",
-    "synopsis": "After the devastating events of Infinity War, the universe is in ruins…",
+    "synopsis": "A skilled thief is given a chance at redemption if he can successfully perform inception.",
+    "releaseDate": "July 2010",
+    "ratingValue": 4.8,
+    "reviewCount": 2560,
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "casts": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "director": "Christopher Nolan",
+    "writers": ["Christopher Nolan"],
+    "reviews": [
+      {
+        "author": "Alice",
+        "content": "Mind-bending visuals and story!",
+        "stars": 5
+      },
+      {
+        "author": "Bob",
+        "content": "A little confusing but brilliant.",
+        "stars": 4
+      }
+    ],
     "showtimes": [
-      { "id": "S1", "time": "14:00", "hall": "Hall 1" },
-      { "id": "S2", "time": "17:00", "hall": "Hall 2" },
-      { "id": "S3", "time": "20:00", "hall": "Hall 1" }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Dune: Part Two",
-    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/dune.png",
-    "durationMin": 166,
-    "rating": "PG-13",
-    "synopsis": "Paul Atreides unites with Chani and the Fremen…",
-    "showtimes": [
-      { "id": "S4", "time": "13:30", "hall": "Hall 3" },
-      { "id": "S5", "time": "18:30", "hall": "Hall 3" }
+      { "id": "S1", "time": "10:00 AM", "hall": "Hall 1" },
+      { "id": "S2", "time": "1:00 PM", "hall": "Hall 2" }
     ]
   }
 ]

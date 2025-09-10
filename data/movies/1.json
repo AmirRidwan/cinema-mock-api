@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "title": "Inception",
+  "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/inception.png",
+  "trailerUrl": "https://youtu.be/hstBN0Qkqhc",
+  "durationMin": 148,
+  "rating": "PG-13",
+  "ratingValue": 4.8,
+  "reviewCount": 2560,
+  "releaseDate": "2010-07-16",
+  "genres": ["Action", "Adventure", "Sci-Fi"],
+  "synopsis": "A skilled thief is given a chance at redemption...",
+  "casts": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+  "director": "Christopher Nolan",
+  "writers": ["Christopher Nolan"]
+}

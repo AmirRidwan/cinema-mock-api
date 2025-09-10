@@ -4,7 +4,6 @@
     "title": "Inception",
     "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/inception.png",
     "trailerUrl": "https://youtu.be/hstBN0Qkqhc",
-    "trailerThumbnailUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/inception.png",
     "durationMin": 148,
     "rating": "PG-13",
     "synopsis": "A skilled thief is given a chance at redemption if he can successfully perform inception.",
@@ -33,3 +32,4 @@
     ]
   }
 ]
+

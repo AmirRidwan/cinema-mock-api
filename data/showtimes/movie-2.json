@@ -1,0 +1,10 @@
+[
+  {
+    "id": 3,
+    "movieId": 2,
+    "cinemaName": "GSC Pavilion",
+    "location": "Kuala Lumpur",
+    "date": "2025-09-13",
+    "times": ["12:00", "15:30", "19:00"]
+  }
+]

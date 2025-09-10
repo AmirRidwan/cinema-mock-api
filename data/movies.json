@@ -3,53 +3,53 @@
     "id": 1,
     "title": "Inception",
     "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/inception.png",
-    "trailerUrl": "https://youtu.be/hstBN0Qkqhc",
-    "durationMin": 148,
-    "rating": "PG-13",
-    "ratingValue": 4.8,
-    "reviewCount": 2560,
-    "releaseDate": "July 2010",
-    "genres": ["Action", "Adventure", "Sci-Fi"],
-    "synopsis": "A skilled thief is given a chance at redemption if he can successfully perform inception.",
-    "casts": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "synopsis": "A thief who enters the dreams of others must pull off the ultimate heist.",
     "director": "Christopher Nolan",
     "writers": ["Christopher Nolan"],
-    "showtimes": [
-      {
-        "id": "s1",
-        "time": "10:00 AM",
-        "hall": "Hall 1",
-        "location": "Cinema A"
-      },
-      {
-        "id": "s2",
-        "time": "1:00 PM",
-        "hall": "Hall 2",
-        "location": "Cinema A"
-      },
-      {
-        "id": "s3",
-        "time": "3:00 PM",
-        "hall": "Hall 1",
-        "location": "Cinema B"
-      },
-      {
-        "id": "s4",
-        "time": "7:00 PM",
-        "hall": "VIP Hall",
-        "location": "Cinema C"
-      }
-    ],
+    "casts": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "genres": ["Action", "Sci-Fi", "Thriller"],
+    "releaseDate": "2010-07-16",
+    "rating": "PG-13",
+    "durationMin": 148,
+    "trailerUrl": "https://youtu.be/hstBN0Qkqhc",
+    "ratingValue": 4.7,
+    "reviewCount": 2,
     "reviews": [
       {
+        "id": 101,
         "author": "Alice",
-        "content": "Mind-bending visuals and story!",
+        "content": "Mind-bending visuals and storytelling!",
         "stars": 5
       },
       {
+        "id": 102,
         "author": "Bob",
-        "content": "A little confusing but brilliant.",
+        "content": "A bit confusing at times, but brilliant.",
         "stars": 4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/refs/heads/main/images/interstellar.png",
+    "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "director": "Christopher Nolan",
+    "writers": ["Jonathan Nolan", "Christopher Nolan"],
+    "casts": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "releaseDate": "2014-11-07",
+    "rating": "PG-13",
+    "durationMin": 169,
+    "trailerUrl": "https://youtu.be/zSWdZVtXT7E",
+    "ratingValue": 4.8,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "id": 103,
+        "author": "Charlie",
+        "content": "Epic and emotional masterpiece.",
+        "stars": 5
       }
     ]
   }

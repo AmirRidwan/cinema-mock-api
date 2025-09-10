@@ -14,6 +14,32 @@
     "casts": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
     "director": "Christopher Nolan",
     "writers": ["Christopher Nolan"],
+    "showtimes": [
+      {
+        "id": "s1",
+        "time": "10:00 AM",
+        "hall": "Hall 1",
+        "location": "Cinema A"
+      },
+      {
+        "id": "s2",
+        "time": "1:00 PM",
+        "hall": "Hall 2",
+        "location": "Cinema A"
+      },
+      {
+        "id": "s3",
+        "time": "3:00 PM",
+        "hall": "Hall 1",
+        "location": "Cinema B"
+      },
+      {
+        "id": "s4",
+        "time": "7:00 PM",
+        "hall": "VIP Hall",
+        "location": "Cinema C"
+      }
+    ],
     "reviews": [
       {
         "author": "Alice",
@@ -25,11 +51,6 @@
         "content": "A little confusing but brilliant.",
         "stars": 4
       }
-    ],
-    "showtimes": [
-      { "id": "S1", "time": "10:00 AM", "hall": "Hall 1" },
-      { "id": "S2", "time": "1:00 PM", "hall": "Hall 2" }
     ]
   }
 ]
-

@@ -17,7 +17,7 @@
   },
   {
     "id": "combo",
-    "name": "Combo (Popcorn + Drink)",
+    "name": "Combo 1",
     "price": 13.0,
     "image": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/main/images/combo.png",
     "description": "Popcorn and soft drink combo at a special price.",
@@ -64,3 +64,4 @@
     "category": "Beverage"
   }
 ]
+

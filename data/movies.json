@@ -15,42 +15,78 @@
     "director": "Christopher Nolan",
     "writers": ["Christopher Nolan"],
     "showtimes": [
-      {
-        "id": "st1",
-        "date": "2025-09-11",
-        "time": "19:30",
-        "hall": "Hall 1",
-        "hallType": "2D",
-        "location": "GSC Mid Valley"
-      },
-      {
-        "id": "st2",
-        "date": "2025-09-12",
-        "time": "21:00",
-        "hall": "Hall 3",
-        "hallType": "IMAX",
-        "location": "GSC Mid Valley"
-      },
-      {
-        "id": "st3",
-        "date": "2025-09-12",
-        "time": "18:00",
-        "hall": "Hall 2",
-        "hallType": "VIP",
-        "location": "TGV KLCC"
-      }
+      { "id": "st1", "date": "2025-09-11", "time": "14:00", "hall": "Hall 1", "hallType": "2D", "location": "GSC Mid Valley" },
+      { "id": "st2", "date": "2025-09-11", "time": "17:00", "hall": "Hall 2", "hallType": "IMAX", "location": "GSC Mid Valley" },
+      { "id": "st3", "date": "2025-09-11", "time": "20:30", "hall": "Hall 3", "hallType": "VIP", "location": "TGV KLCC" },
+      { "id": "st4", "date": "2025-09-12", "time": "13:30", "hall": "Hall 1", "hallType": "2D", "location": "TGV KLCC" },
+      { "id": "st5", "date": "2025-09-12", "time": "16:30", "hall": "Hall 2", "hallType": "3D", "location": "TGV KLCC" },
+      { "id": "st6", "date": "2025-09-12", "time": "21:00", "hall": "Hall 4", "hallType": "IMAX", "location": "GSC Mid Valley" },
+      { "id": "st7", "date": "2025-09-13", "time": "15:00", "hall": "Hall 1", "hallType": "2D", "location": "GSC Mid Valley" },
+      { "id": "st8", "date": "2025-09-13", "time": "19:45", "hall": "Hall 3", "hallType": "VIP", "location": "TGV KLCC" }
     ],
     "reviews": [
-      {
-        "author": "Alice",
-        "content": "Mind-bending visuals and story!",
-        "stars": 5
-      },
-      {
-        "author": "Bob",
-        "content": "A little confusing but brilliant.",
-        "stars": 4
-      }
+      { "author": "Alice", "content": "Mind-bending visuals and story!", "stars": 5 },
+      { "author": "Bob", "content": "A little confusing but brilliant.", "stars": 4 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/main/images/interstellar.png",
+    "trailerUrl": "https://youtu.be/zSWdZVtXT7E",
+    "durationMin": 169,
+    "rating": "PG-13",
+    "ratingValue": 4.7,
+    "reviewCount": 3100,
+    "releaseDate": "November 2014",
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "casts": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "director": "Christopher Nolan",
+    "writers": ["Jonathan Nolan", "Christopher Nolan"],
+    "showtimes": [
+      { "id": "st9", "date": "2025-09-11", "time": "15:00", "hall": "Hall 1", "hallType": "2D", "location": "TGV KLCC" },
+      { "id": "st10", "date": "2025-09-11", "time": "19:00", "hall": "Hall 2", "hallType": "IMAX", "location": "TGV KLCC" },
+      { "id": "st11", "date": "2025-09-11", "time": "21:30", "hall": "Hall 3", "hallType": "VIP", "location": "GSC Mid Valley" },
+      { "id": "st12", "date": "2025-09-12", "time": "12:30", "hall": "Hall 1", "hallType": "2D", "location": "GSC Mid Valley" },
+      { "id": "st13", "date": "2025-09-12", "time": "17:00", "hall": "Hall 2", "hallType": "3D", "location": "TGV KLCC" },
+      { "id": "st14", "date": "2025-09-12", "time": "20:30", "hall": "Hall 4", "hallType": "IMAX", "location": "GSC Mid Valley" },
+      { "id": "st15", "date": "2025-09-13", "time": "14:00", "hall": "Hall 1", "hallType": "2D", "location": "TGV KLCC" },
+      { "id": "st16", "date": "2025-09-13", "time": "18:45", "hall": "Hall 3", "hallType": "VIP", "location": "GSC Mid Valley" }
+    ],
+    "reviews": [
+      { "author": "Clara", "content": "Visually stunning and emotional.", "stars": 5 },
+      { "author": "David", "content": "A masterpiece of science fiction.", "stars": 5 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "posterUrl": "https://raw.githubusercontent.com/AmirRidwan/cinema-mock-api/main/images/dark_knight.png",
+    "trailerUrl": "https://youtu.be/EXeTwQWrcwY",
+    "durationMin": 152,
+    "rating": "PG-13",
+    "ratingValue": 4.9,
+    "reviewCount": 4200,
+    "releaseDate": "July 2008",
+    "genres": ["Action", "Crime", "Drama"],
+    "synopsis": "Batman faces the Joker, a criminal mastermind who unleashes chaos in Gotham.",
+    "casts": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "director": "Christopher Nolan",
+    "writers": ["Jonathan Nolan", "Christopher Nolan"],
+    "showtimes": [
+      { "id": "st17", "date": "2025-09-11", "time": "16:00", "hall": "Hall 1", "hallType": "2D", "location": "GSC Mid Valley" },
+      { "id": "st18", "date": "2025-09-11", "time": "19:15", "hall": "Hall 2", "hallType": "IMAX", "location": "TGV KLCC" },
+      { "id": "st19", "date": "2025-09-11", "time": "22:00", "hall": "Hall 3", "hallType": "VIP", "location": "GSC Mid Valley" },
+      { "id": "st20", "date": "2025-09-12", "time": "13:00", "hall": "Hall 1", "hallType": "2D", "location": "TGV KLCC" },
+      { "id": "st21", "date": "2025-09-12", "time": "17:30", "hall": "Hall 2", "hallType": "3D", "location": "GSC Mid Valley" },
+      { "id": "st22", "date": "2025-09-12", "time": "21:00", "hall": "Hall 4", "hallType": "IMAX", "location": "TGV KLCC" },
+      { "id": "st23", "date": "2025-09-13", "time": "15:30", "hall": "Hall 1", "hallType": "2D", "location": "GSC Mid Valley" },
+      { "id": "st24", "date": "2025-09-13", "time": "19:45", "hall": "Hall 3", "hallType": "VIP", "location": "TGV KLCC" }
+    ],
+    "reviews": [
+      { "author": "Evelyn", "content": "Heath Ledger's Joker is legendary.", "stars": 5 },
+      { "author": "Frank", "content": "Dark, thrilling, and unforgettable.", "stars": 5 }
     ]
   }
 ]
